@@ -5,16 +5,42 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtViewer", "ArtViewer\ArtViewer.csproj", "{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtLib", "ArtLib\ArtLib.csproj", "{5CC081C6-6553-42E4-8849-E04DF0E0066F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI Integration", "GUI Integration\GUI Integration.csproj", "{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Debug|x86.Build.0 = Debug|Any CPU
 		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F3A5F07-88C1-4154-8913-998FD2BCD3A7}.Release|x86.Build.0 = Release|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Debug|x86.Build.0 = Debug|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Release|x86.ActiveCfg = Release|Any CPU
+		{5CC081C6-6553-42E4-8849-E04DF0E0066F}.Release|x86.Build.0 = Release|Any CPU
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Debug|x86.ActiveCfg = Debug|x86
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Debug|x86.Build.0 = Debug|x86
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Release|x86.ActiveCfg = Release|x86
+		{25EBE56A-1B64-4AC4-A4E2-B58EAF71722C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
